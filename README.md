@@ -4,7 +4,7 @@
 ## 📌 Project Overview
 ASL Form Filler 4 is an accessibility-focused application that helps users fill structured forms using **American Sign Language (ASL)** gestures.
 
-The system captures real-time webcam input, detects hand landmarks using **MediaPipe**, classifies ASL gestures into characters (**A–Z, 0–9**), and inserts the recognized characters into form fields.
+The system captures real-time webcam input, detects hand landmarks using **MediaPipe**, classifies ASL gestures into characters (**A-Z, 0-9**), and inserts the recognized characters into form fields.
 
 This project was developed as part of a **Study Project**, with the goal of exploring how computer vision + machine learning can support accessible input methods.
 
@@ -15,8 +15,8 @@ This project was developed as part of a **Study Project**, with the goal of expl
 - 21 hand landmark detection using MediaPipe  
 - ASL character recognition using a trained Random Forest classifier  
 - Separate classification modes:
-  - Alphabet detection (A–Z)
-  - Number detection (0–9)
+  - Alphabet detection (A-Z)
+  - Number detection (0-9)
 - Hold-to-confirm mechanism (40-frame threshold) to prevent accidental typing  
 - Structured form interface (First Name, Last Name, Age, etc.)  
 - Keyboard-based form navigation  
@@ -78,8 +78,8 @@ After running, the webcam window and the form panel should open.
 
 ## 🧪 Training Pipeline (Summary)
 The ASL classifier was trained using a custom dataset captured via webcam.
-- ~300 images per letter (A–Z)
-- ~300 images per number (0–9)
+- ~300 images per letter (A-Z)
+- ~300 images per number (0-9)
 
 Model used:
 - Random Forest classifier
@@ -145,3 +145,4 @@ Developed for academic purposes as part of a Study Project.
 - Scikit-learn
 - Kaggle ASL datasets
 - Open-source community resources
+
